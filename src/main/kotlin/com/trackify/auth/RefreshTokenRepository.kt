@@ -13,7 +13,7 @@ class RefreshTokenRepository {
         tokens[token]
 
     fun save(token: String, userDetails: UserDetails) {
-        tokens[token] set userDetails
+        tokens[token] = userDetails
     }
 
 }
